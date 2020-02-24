@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.tneagu.mvvmsimpleapp.R
-import com.tneagu.mvvmsimpleapp.main.DetailFragmentArgs
 
 /**
  * A simple [Fragment] subclass.
