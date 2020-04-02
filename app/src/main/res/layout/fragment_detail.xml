@@ -6,12 +6,15 @@
         <variable
             name="dog"
             type="com.tneagu.mvvmsimpleapp.main.model.DogBreed" />
-
+        <variable
+            name="palette"
+            type="com.tneagu.mvvmsimpleapp.main.model.DogPalette" />
     </data>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@{palette.color}"
         tools:context="com.tneagu.mvvmsimpleapp.main.view.DetailFragment">
 
         <ImageView
